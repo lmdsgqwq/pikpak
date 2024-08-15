@@ -35,6 +35,7 @@ def check_env():
         return invite_code_list
 
 
+
 # 推送
 async def push(content):
     if PUSHPLUS_TOKEN:
